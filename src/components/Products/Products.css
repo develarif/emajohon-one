@@ -1,0 +1,45 @@
+.product {
+	display: flex;
+	margin: 30px 0;
+	padding: 30px;
+	border: 1px solid #f0f0f0;
+	transition: 0.4s;
+}
+
+.product:hover {
+	background: #f0f0f0;
+}
+
+.product .thumbnail {
+	width: 250px;
+	margin-right: 50px;
+}
+
+/* .product .thumbnail img {
+	width: 100%;
+} */
+
+.product h2 {
+	color: #ec8b28;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.product h3,
+h5,
+p {
+	margin: 0 0 8px 0;
+}
+
+.product button {
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	background: #ec8b28;
+	padding: 8px 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 20px;
+	cursor: pointer;
+	margin-top: 10px;
+}

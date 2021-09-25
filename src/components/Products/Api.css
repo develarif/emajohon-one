@@ -1,0 +1,25 @@
+.all-products {
+	width: 90%;
+	display: flex;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.product-items {
+	width: 100%;
+	max-width: 75%;
+	margin-right: 5%;
+}
+
+.cart {
+	width: 20%;
+	padding: 30px;
+	border: 1px solid #f0f0f0;
+	margin-top: 30px;
+}
+
+.cart-info {
+	--webkit-position: sticky;
+	position: sticky;
+	top: 30px;
+}

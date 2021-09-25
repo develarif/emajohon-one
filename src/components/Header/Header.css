@@ -1,0 +1,53 @@
+.header {
+	background-color: #ffffff;
+}
+
+.header-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-area img {
+	width: 180px;
+}
+
+.nav-menus {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	padding: 0;
+}
+
+.nav-menus li {
+	margin: 0 12px;
+}
+
+.nav-menus li a {
+	font-size: 18px;
+	font-weight: 600;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #ec8b28;
+	text-transform: uppercase;
+}
+
+.cart-area svg {
+	font-size: 20px;
+	color: #000000;
+	margin-left: 10px;
+}
+
+.cart-area a {
+	font-size: 18px;
+	font-weight: 600;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #ec8b28;
+	text-transform: uppercase;
+}
